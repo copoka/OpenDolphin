@@ -19,8 +19,6 @@ OpenDolphinは、maven でプロジェクト管理を行っています。
 ・AppleJavaExtensions.jar  
 をローカルリポジトリーに手動でインストールする必要があります。  
 
-mvn install:install-file -Dfile=/path/to/iTextAsian.jar -DgroupId=opendolphin -  DartifactId=itext-font -Dversion=1.0 -Dpackaging=jar  
+mvn install:install-file -Dfile=/path/to/iTextAsian.jar -DgroupId=opendolphin -DartifactId=itext-font -Dversion=1.0 -Dpackaging=jar  
 
-mvn install:install-file -Dfile=/path/to/AppleJavaExtensions.jar  
--DgroupId=com.apple -DartifactId=AppleJavaExtensions -Dversion=1.6  
--Dpackaging=jar
+mvn install:install-file -Dfile=/path/to/AppleJavaExtensions.jar -DgroupId=com.apple -DartifactId=AppleJavaExtensions -Dversion=1.6 -Dpackaging=jar
